@@ -1,0 +1,135 @@
+.name {
+    color : white;
+    font-size : 32px;
+    text-decoration: none;
+    margin-left: 150px;
+    min-height: 1px;
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+.nav-left {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.nav-left h1 {
+    font-family: "Sedgwwick Ave", cursive;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 70px;
+}
+.btn1 {
+    background-color: black;
+    color : white;
+    font-weight: bold;
+    border : 1px solid black;
+    border-radius: 5px ;
+    padding: 7px;
+    margin: 50px 0;
+}
+.btn2 {
+    background-color: transparent;
+    color : white;
+    font-weight: bold;
+    border : 1px solid white;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 10px;
+}
+.btn2:hover {
+    background-color: white;
+    color : black;
+}
+.nav li {
+    list-style: none;
+    margin: 10px 10px;
+    color : white;
+    font-size: 18px;
+    opacity : 0.6;
+    cursor: pointer;
+    font-weight: 700;
+}
+.nav li:hover {
+    opacity : 1
+}
+
+
+/* Feature */
+#feature {
+    background-color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    padding: 5%;
+}
+.feature-main h3 {
+    font-family: sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+}
+.feature-main p {
+    color: rgb(143,143,143);
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+/* Content */
+#content {
+    background-color: #ff4c68;
+    min-height: 1px;
+    padding: 3% 15%;
+    text-align: center;
+}
+.content-h2 {
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+}
+.dog, .lady {
+    width: 10%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+span {
+    color : white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.img{
+    padding: 2%;
+}
+/* download */
+.download-section {
+    background-color: #fc5062;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+.download-btn{
+    margin: 20px 10px;
+}
+.download-section button{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+    color: #6c7576;
+}
+.footer-icons a {
+    color : black;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3 ease;
+}
+.footer-icons a:hover {
+    color : #007bff
+}
+.footer p {
+    margin-top: 15px;
+    font-size: 14px;
+}

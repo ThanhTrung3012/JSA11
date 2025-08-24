@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding : 20px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: 100px 300px; */
+    grid-auto-rows : minmax(60px,auto);
+    /* gap : 10px; */
+    grid-template-areas: 
+    "header header header"
+    "sidebar content content"
+    "sidebar comment comment"
+    "footer footer footer";
+    ;
+}
+.item{
+    background-color: #8cafef;
+    border: 1px solid #000;
+    min-height: 50px;
+}
+.item1 {
+    grid-area: header;
+}
+.item2{
+    grid-area: sidebar;
+}
+.item3 {
+    grid-area: content;
+}
+.item4 {
+    grid-area: comment;
+}
+.item5 {
+    grid-area: footer;
+}
+/* Fraction */
+/* .item6{
+    grid-column-start: 2;
+    grid-column-end: 5; 
+} */

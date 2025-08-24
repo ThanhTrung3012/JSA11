@@ -1,0 +1,30 @@
+.box-parent {
+    background-color: #f1c40f;
+    padding : 40px;
+    /* position : relative; */
+    margin-top: 100px;
+}
+.box {
+    padding : 20px;
+}
+.box1 {
+    background-color: #1abc9c;
+    /* position : relative;
+    top: 20px;
+    right: 50px; */
+}
+.box2 {
+    background-color: #2ecc71;
+    position: absolute;
+    top : 0
+}
+.box3 {
+    background-color: #3498db;
+}
+.box4{
+    background-color: #9b59b6;
+}
+h1{
+    position: fixed;
+    top : 0
+}

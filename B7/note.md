@@ -1,0 +1,5 @@
+- Repo : Kho chứa dữ liệu
+- clone : tạo 1 bản sao của kho mã nguồn .
+- commit : mỗi lần thay đổi mã nguồn, cần commit lại để lưu lại bài hiện tại
+- push : đẩy mã nguồn lên git 
+- pull : lấy code commit từ trên git về máy

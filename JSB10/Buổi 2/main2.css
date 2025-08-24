@@ -1,0 +1,28 @@
+.box {
+    color : white;
+    width: 60px;
+    height: 60px;
+}
+.box1 {
+    background-color: black;
+}
+.box2 {
+    background-color: rgb(197, 32, 32);
+}
+.box3 {
+    background-color: rgb(68, 42, 42);
+}
+.box1 {
+    margin: 20px;
+}
+.box2 {
+    /* padding-left:  20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 20px; */
+    /* padding : 20px; */
+    padding : 20px 10px  
+}
+.box3 {
+    border-bottom : 1px solid rgb(230, 10, 10);
+}

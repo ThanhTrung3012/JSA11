@@ -1,0 +1,13 @@
+- Các loại kiểu trong input :
++ input type= "text" 
++ input type = "password"
++ input type = "button"
++ input type = "checkbox"
++ input type = "date"
++ input type = "email"
++ input type = "file"
++ input type = "number"
++ input type = "radio"
++ input type = "range"
++ input type = "url"
++ input type = "image"
